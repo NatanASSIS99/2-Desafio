@@ -1,0 +1,215 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    text-decoration: none;
+    background-color: #0C70F2;
+    color: #ffffff;
+    padding: 50px;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 55px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.sectionTexDivfilho1 {
+    align-items: center;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+.sectionTexFilho{
+    font-size: 50px;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: auto;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto; /* Centraliza horizontalmente */
+    margin-top: 20vh; /* Centraliza verticalmente */
+}
+
+.button {
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgba(242, 242, 242, 0.9); /* Cor com 90% de opacidade */
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    margin: auto; /* Centraliza horizontalmente */
+    background-color: #BABABA;
+}
+
+.buttonPrevisao {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Espaçamento entre os inputs */
+}
+.button1{
+    transition: background-color 0.3s, box-shadow 0.3s; /* Adiciona transição suave para a cor de fundo e sombra */
+    box-shadow: 0px 5px 10px rgba(9, 124, 231, 0.5); /* Adicione uma sombra */
+}
+
+.button1:hover {
+    background-color: #0858b8; /* Muda a cor de fundo quando o mouse passa sobre o botão */
+}
+.buttonPrevisao input {
+    height: 50px;
+    width: 245px;
+    border-radius: 10px;
+    background-color: #BABABA;
+    margin-right: 10px; /* Espaçamento entre os inputs */
+    border:0px;
+    margin-top: 10px;
+}
+.form1 label {
+    margin-top: 20px;
+    margin-bottom: 20px; /* Ajuste o valor conforme desejado */
+}
+label {
+   font-size:  "Inter", sans-serif;
+}
+
+.button1 {
+    margin-top: 50px;
+    background-color: #0C70F2;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    border:0px;
+    cursor: pointer;}
+    
+.previsao{
+    margin-top: 20px;
+   
+}
+
+    
+
+
+
+.Geral {
+    background-color: #BABABA;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+.containerFinal{
+    background-color: #BABABA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 300px;
+}
+
+
+.locais {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Para alinhar os itens ao topo */
+    background-color: #BABABA;
+}
+#lacais1{
+    margin: 150px;
+}
+.log{
+   display: grid;
+   width: 500px;
+   grid-auto-columns: auto;
+
+   
+
+}
+.label {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+   border-radius: 15px;
+    justify-content: center;
+    align-items: center; /* Para centralizar verticalmente */
+    background-color: #0C70F2;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    padding: 20px;
+    
+}
+.input{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* Para centralizar verticalmente */
+    padding-bottom: 150px;
+    margin: 0px;
+    
+    
+}
+.input1{
+    border: 0px;
+}
+#Logradouro{
+    margin-right: 65PX;
+}
+#Bairro{ margin-right: 60PX;
+    margin-left: 0PX;
+
+}
+#Localidade{
+    
+}
+.Previsao2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.resPrev input {
+   
+    width: 80%; /* Defina a largura do input conforme desejado */
+    padding: 10px; /* Adicione preenchimento interno para melhorar a aparência */
+    border: 1px solid #0C70F2; /* Adicione uma borda para que o input seja visível */
+    border-radius: 5px; /* Adicione borda arredondada conforme desejado */
+    box-sizing: border-box; /* Garante que a largura inclua a largura da borda e do preenchimento */
+    margin: 10px auto; /* Centralize horizontalmente e adicione espaçamento vertical */
+    display: block; /* Para tornar o input um bloco */
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+#resultadoPrevisao{
+    margin-bottom: 80px;
+}
